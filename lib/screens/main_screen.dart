@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.sports_basketball_outlined),
-          selectedIcon: const Icon(Icons.sports_basketball, color: AppTheme.primaryColor),
-          label: 'Scores',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.scatter_plot_outlined),
-          selectedIcon: const Icon(Icons.scatter_plot, color: AppTheme.primaryColor),
-          label: 'Shot Chart',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.leaderboard_outlined),
-          selectedIcon: const Icon(Icons.leaderboard, color: AppTheme.primaryColor),
-          label: 'Leaders',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.format_list_numbered_outlined),
-          selectedIcon: const Icon(Icons.format_list_numbered, color: AppTheme.primaryColor),
-          label: 'Standings',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.sports_basketball_outlined),
+            selectedIcon: const Icon(Icons.sports_basketball, color: AppTheme.primaryColor),
+            label: 'Scores',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.bar_chart_outlined),
+            selectedIcon: const Icon(Icons.bar_chart, color: AppTheme.primaryColor),
+            label: 'Box Score',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.star_outline),
+            selectedIcon: const Icon(Icons.star, color: AppTheme.primaryColor),
+            label: 'Leaders',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.format_list_bulleted_outlined),
+            selectedIcon: const Icon(Icons.format_list_bulleted, color: AppTheme.primaryColor),
+            label: 'Standings',
+          ),
         ],
       ),
     );
